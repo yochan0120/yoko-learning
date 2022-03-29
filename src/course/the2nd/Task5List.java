@@ -14,13 +14,8 @@ public class Task5List {
 		dogList.add("トイプードル");
 		dogList.add("ダックスフンド");
 
-//	拡張for文で順番に出力
-//		for (String breed : dogList) {
-//			System.out.println(breed);
-		
 //	メソッド参照で順番に出力
-//	forEach( e -> System.out.println(e))の省略記法
+
 		dogList.forEach(System.out::println);
-		}
 	}
-//}
+}
