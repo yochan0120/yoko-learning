@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Task5Map {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		Map<Integer, String> dogMap = new HashMap<>();
 
 // putメソッドでdogにデータを追加
