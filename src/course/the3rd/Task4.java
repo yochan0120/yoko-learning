@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Task5 {
+public class Task4 {
 
 	public static void main(String[] args) {
 		File file = new File("sample.txt");

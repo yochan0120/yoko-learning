@@ -3,7 +3,7 @@ package course.the3rd;
 import java.io.File;
 import java.io.IOException;
 
-public class Task4 {
+public class Task3 {
 	public static void main(String[] args) {
 		File file = new File("sample.txt");
 		try {

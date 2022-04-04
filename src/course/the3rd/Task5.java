@@ -1,6 +1,6 @@
 package course.the3rd;
 
-public class Task6 {
+public class Task5 {
 	public static void main(String[] args) {
 		System.out.println("A");
 		try {
