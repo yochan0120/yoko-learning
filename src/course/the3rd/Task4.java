@@ -17,4 +17,9 @@ public class Task4 {
 		}
 		System.out.println("finish");
 	}
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> main
