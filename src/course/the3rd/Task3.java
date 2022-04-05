@@ -1,5 +1,6 @@
 package course.the3rd;
 
+<<<<<<< HEAD
 public class Task3 {
 	public static void main(String[] args) {
 		System.out.println("プログラムの実行");
@@ -20,4 +21,23 @@ public class Task3 {
 		}
 	}
 
+=======
+import java.io.File;
+import java.io.IOException;
+
+public class Task3 {
+	public static void main(String[] args) {
+		File file = new File("sample.txt");
+		try {
+
+//			例外が発生する可能性のあるコード
+			file.createNewFile();
+		} catch (IOException e) {
+
+//			IOExceptionOがスローされてきた時の対処方法
+//			do something
+		}
+		System.out.println("finish");
+	}
+>>>>>>> origin/main
 }
